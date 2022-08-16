@@ -17,7 +17,7 @@ public class LanternaLab {
         terminal.setBackgroundColor(new TextColor.RGB(255,255,255));
         for (int row = 1; row <= 24; row++) {
             for (int col = 1; col <= 80; col++) {
-                out(row,col,'2', GREEN);
+                out(row,col,'3', GREEN);
             }
         }
         out(4,4,'X', RED);
